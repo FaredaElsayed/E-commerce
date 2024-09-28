@@ -5,6 +5,13 @@
   padding: 1em;
   box-shadow: 0 1px 3px -2px black;
 }
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: inherit;
+}
+a{color: inherit;}
 .navbar .navLogo {
   display: flex;
   align-items: center;

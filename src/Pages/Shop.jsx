@@ -1,0 +1,15 @@
+import Hero from "../Componnents/Hero/Hero";
+import Items from "../Componnents/Items/Items";
+import NewCollections from "../Componnents/Items/NewCollections";
+import Offer from "../Componnents/Offers/Offer";
+
+export default function Shop(){
+    return (
+      <div>
+       <Hero/>
+       <Items/>
+       <Offer/>
+       <NewCollections/>
+      </div>
+    );
+}

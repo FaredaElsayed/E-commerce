@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+.hero .heroLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 0rem;
+  padding-left: 10rem;
+  gap: 0.9em;
+}
+.hero .heroLeft button {
+  width: 50%;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  outline: none;
+  color: white;
+  background: #ff4141;
+  border: #ff4141;
+  cursor: pointer;
+}
+.hero .heroLeft h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #090909;
+  margin: 0%;
+}
+.hero .heroLeft p {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #171717;
+  margin: 0%;
+}
+.hero .heroRight {
+  width: 40%;
+}
