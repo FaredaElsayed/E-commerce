@@ -1,3 +1,4 @@
+import GetOffer from "../Componnents/GetOffer/GetOffer";
 import Hero from "../Componnents/Hero/Hero";
 import Items from "../Componnents/Items/Items";
 import NewCollections from "../Componnents/Items/NewCollections";
@@ -10,6 +11,7 @@ export default function Shop(){
        <Items/>
        <Offer/>
        <NewCollections/>
+       <GetOffer/>
       </div>
     );
 }
