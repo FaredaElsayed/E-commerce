@@ -8,6 +8,7 @@
   padding: 1em;
   background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
   margin: 10rem;
+  margin-bottom: 0em;
 }
 .offer form {
   margin-top: 2em;
@@ -46,6 +47,7 @@
 }
 
 .offer h2 {
+  margin-top: 2em;
   font-size: 2rem;
   font-weight: 600;
   color: rgb(92, 90, 90);
@@ -67,12 +69,11 @@
   font-weight: 500;
   list-style: none;
 }
-.offer ul li{
+.offer ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3px;
   cursor: pointer;
-
 }

@@ -49,7 +49,7 @@ export default function Navbar() {
         <Link to="/login">
           <button>Login</button>
         </Link>
-        <Link to="/cart">
+        <Link to="/cart"> 
           <img src={cart_icon} alt="nav cart" />
         </Link>
         <div className={styles.count}>0</div>
