@@ -3,6 +3,7 @@ import styles from "./CSS/ShopCategory.module.css";
 import { ShopContext } from "../Contexts/ShopContext";
 import dropdown_icon from "../Assets/dropdown_icon.png";
 import Item from "../Componnents/Items/Item";
+import Footer from "../Componnents/Footer/Footer";
 export default function ShopCategory(props) {
   const { all_product } = useContext(ShopContext);
   return (
@@ -22,7 +23,8 @@ export default function ShopCategory(props) {
             return (
               <Item
                 src={product.image}
-                key={product.id}
+                key={index}
+                id = {product.id}
                 alt={product.name}
                 description={product.name}
                 oldPrice={product.old_price}
@@ -34,9 +36,9 @@ export default function ShopCategory(props) {
           }
         })}
       </div>
-      <div className={styles.loadMore}>
-        EXplore More
-      </div>
+      <div className={styles.loadMore}>EXplore More</div>
+
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,5 @@
+.productItem {
+  display: flex;
+  align-items: center;
+  margin: 3em 11em;
+}

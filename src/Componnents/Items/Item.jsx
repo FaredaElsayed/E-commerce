@@ -1,13 +1,16 @@
+import { Link } from "react-router-dom";
 import styles from "./Items.module.css";
 
-export default function Item({ src, description, newPrice, oldPrice }) {
+export default function Item(props) {
   return (
     <div className={styles.item}>
-      <img src={src} alt={src} />
-      <p>{description}</p>
+      <Link to={`/product/${props.id}`}>
+        <img src={props.src} alt={props.image} />
+      </Link>
+      <p>{props.description}</p>
       <div className={styles.prices}>
-        <p className={styles.newPrice}>${newPrice}</p>
-        <p className={styles.oldPrice}>${oldPrice}</p>
+        <p className={styles.newPrice}>${props.newPrice}</p>
+        <p className={styles.oldPrice}>${props.oldPrice}</p>
       </div>
     </div>
   );

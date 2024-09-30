@@ -15,6 +15,7 @@ export default function Items() {
               src={item.image}
               description={item.name}
               key={item.id}
+              id={item.id}
               oldPrice={item.old_price}
               newPrice={item.new_price}
             />

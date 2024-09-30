@@ -1,0 +1,86 @@
+.productDisplay {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  height: 50vh;
+  margin: 0em 11em;
+}
+
+.productDisplay .productLeft {
+  display: flex;
+  gap: 2em;
+}
+.productDisplay .imgList {
+  display: grid;
+  flex-direction: column;
+  gap: 1em;
+}
+.productDisplay .imgList img {
+  height: 163px;
+}
+.productDisplay .productLeft .mainImg img {
+  width: 36em;
+  height: 43.6em;
+}
+.productDisplay .productRight {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.productRight .size {
+  font-weight: 600;
+  color: #656565;
+  font-size: 1.3em;
+}
+.productDisplay .productRight .stars {
+  display: flex;
+  color: #1c1c1c;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.productDisplay .productRight .prices {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+.productDisplay .productRight .prices p {
+  text-decoration: line-through;
+  color: #818181;
+}
+.productDisplay .productRight .prices span {
+  color: #ff4141;
+  font-weight: 700;
+}
+.productDisplay .measures {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.productDisplay .measures div {
+  border-radius: 0.3em;
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  padding: 0.2em 0.6em;
+  cursor: pointer;
+}
+
+.productDisplay .productRight button {
+  padding: 0.5em 1.4em;
+  margin-top: 1em;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ff4141;
+  cursor: pointer;
+  background: #ff4141;
+  color: white;
+  font-size: 1.3em;
+}
+.productDisplay .productRight .cat p {
+  font-weight: 600;
+}
+.productDisplay .productRight .cat span {
+  font-weight: 400;
+}

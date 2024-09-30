@@ -6,7 +6,6 @@ import Product from "./Pages/Product";
 import Shop from "./Pages/Shop";
 import Cart from "./Pages/Cart";
 import LoginReg from "./Pages/LoginReg";
-import Footer from "./Componnents/Footer/Footer";
 import men_panner from "../src/Assets/banner_mens.png";
 import women_panner from "../src/Assets/banner_women.png";
 import kids_panner from "../src/Assets/banner_kids.png";
@@ -36,7 +35,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginReg />} />
         </Routes>
-        <Footer />
+        
       </BrowserRouter>
     </div>
   );

@@ -27,6 +27,7 @@
 
 .loginReg form h1 {
   margin: 0px;
+  font-weight: 500;
 }
 .loginReg form input {
   padding: 1em 2em;
@@ -40,6 +41,13 @@
 }
 .loginReg p {
   margin-left: 2em;
+  color: #5c5c5c;
+}
+.loginReg p span {
+  color: #ff4141;
+  padding-left: 0.5em;
+  font-weight: 700;
+  cursor: pointer;
 }
 .loginReg form button {
   padding: 0.5em;
