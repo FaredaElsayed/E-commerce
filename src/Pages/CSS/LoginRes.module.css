@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+.loginReg {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fce3fe;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.loginReg .formContainer {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 2em;
+}
+
+.loginReg form {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  gap: 1em;
+}
+
+.loginReg form h1 {
+  margin: 0px;
+}
+.loginReg form input {
+  padding: 1em 2em;
+  padding-left: 0.8em;
+  display: flex;
+  outline: none;
+  border-radius: 0.5em;
+  font-size: 1.2em;
+  border: 1px solid #c9c9c9;
+  color: #5c5c5c;
+}
+.loginReg p {
+  margin-left: 2em;
+}
+.loginReg form button {
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ff4141;
+  cursor: pointer;
+  background: #ff4141;
+  color: white;
+  font-size: 1.3em;
+}
+.loginReg .agree p {
+  margin-left: 0em;
+}
+.loginReg .agree {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  margin-left: 2em;
+}
+.loginReg input[type="checkbox"] {
+  cursor: pointer;
+}
