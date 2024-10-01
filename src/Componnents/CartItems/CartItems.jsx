@@ -5,7 +5,6 @@ import remove_icon from "../../Assets/cart_cross_icon.png";
 
 export default function CartItems() {
   const {
-    getTotalItems,
     getTotalCartAmount,
     all_product,
     cartItems,
