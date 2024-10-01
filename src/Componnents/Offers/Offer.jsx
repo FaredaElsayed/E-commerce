@@ -1,6 +1,6 @@
 import styles from "./Offer.module.css";
 import exclusive_image from "../../Assets/exclusive_image.png";
-
+import React from "react";
 export default function Offer() {
   return (
     <div className={styles.offer}>

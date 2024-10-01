@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./CSS/LoginRes.module.css";
-
+import React from "react";
 export default function LoginReg() {
   const [log, setLog] = useState(false);
 

@@ -8,6 +8,7 @@ import Cart from "./Pages/Cart";
 import LoginReg from "./Pages/LoginReg";
 import men_panner from "../src/Assets/banner_mens.png";
 import women_panner from "../src/Assets/banner_women.png";
+import React from "react";
 import kids_panner from "../src/Assets/banner_kids.png";
 
 function App() {

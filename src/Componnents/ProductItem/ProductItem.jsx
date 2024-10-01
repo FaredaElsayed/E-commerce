@@ -1,5 +1,6 @@
 import styles from "./ProductItem.module.css";
 import arrow_icon from "../../Assets/breadcrum_arrow.png";
+import React from "react";
 export default function ProductItem(props) {
   const { product } = props;
   return (

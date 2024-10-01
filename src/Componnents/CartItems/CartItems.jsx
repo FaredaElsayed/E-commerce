@@ -2,7 +2,7 @@ import { useContext } from "react";
 import styles from "./CartItems.module.css";
 import { ShopContext } from "../../Contexts/ShopContext";
 import remove_icon from "../../Assets/cart_cross_icon.png";
-
+import React from "react";
 export default function CartItems() {
   const {
     getTotalCartAmount,

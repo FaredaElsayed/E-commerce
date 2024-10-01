@@ -1,4 +1,5 @@
 import styles from "./GetOffer.module.css";
+import React from "react";
 export default function GetOffer() {
   return (
     <div className={styles.offer}>

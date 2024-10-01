@@ -4,6 +4,7 @@ import { ShopContext } from "../Contexts/ShopContext";
 import dropdown_icon from "../Assets/dropdown_icon.png";
 import Item from "../Componnents/Items/Item";
 import Footer from "../Componnents/Footer/Footer";
+import React from "react";
 export default function ShopCategory(props) {
   const { all_product } = useContext(ShopContext);
   return (

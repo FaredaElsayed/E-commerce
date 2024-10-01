@@ -1,6 +1,7 @@
 import Item from "./Item";
 import styles from "./Items.module.css";
 import new_collections from "../../Assets/new_collections";
+import React from "react";
 export default function NewCollections() {
   return (
     <>

@@ -1,6 +1,7 @@
 import Item from "./Item";
 import styles from "./Items.module.css";
 import data_product from "../../Assets/data";
+import React from "react";
 export default function Items() {
   return (
     <>

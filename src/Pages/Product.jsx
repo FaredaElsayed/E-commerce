@@ -7,7 +7,7 @@ import ProductDisplay from "../Componnents/ProductDisplay/ProductDisplay";
 import Description from "../Componnents/Description/Description";
 import Footer from "../Componnents/Footer/Footer";
 import RelatedProducts from "../Componnents/RelatedProducts/RelatedProducts";
-
+import React from "react";
 export default function Product() {
   const { all_product } = useContext(ShopContext);
   const { productId } = useParams();

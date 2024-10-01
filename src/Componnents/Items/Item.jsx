@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Items.module.css";
-
+import React from "react";
 export default function Item(props) {
   return (
     <div className={styles.item}>

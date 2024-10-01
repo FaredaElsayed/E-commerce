@@ -3,7 +3,7 @@ import logo from "../../Assets/logo.png";
 import Whatsapp from "../../Assets/whatsapp_icon.png";
 import insta from "../../Assets/instagram_icon.png";
 import pinterset from "../../Assets/pintester_icon.png";
-
+import React from "react";
 export default function Footer() {
   return (
     <div className={styles.footer}>

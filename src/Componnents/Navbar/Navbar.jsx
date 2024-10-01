@@ -4,7 +4,7 @@ import cart_icon from "../../Assets/cart_icon.png";
 import { useState, useEffect, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ShopContext } from "../../Contexts/ShopContext";
-
+import React from "react";
 export default function Navbar() {
   const location = useLocation();
   const [menu, setMenu] = useState("shop");

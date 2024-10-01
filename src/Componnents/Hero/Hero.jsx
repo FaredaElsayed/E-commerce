@@ -1,7 +1,7 @@
 import styles from "./Hero.module.css";
 import hero_img from "../../Assets/hero_image.png"
 import arrow from "../../Assets/arrow.png"
-
+import React from "react";
 export default function Hero() {
   return (
     <div className={styles.hero}>

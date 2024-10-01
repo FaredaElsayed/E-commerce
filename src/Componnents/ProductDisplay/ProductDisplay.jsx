@@ -1,6 +1,7 @@
 import styles from "./ProductDisplay.module.css";
 import star_icon from "../../Assets/star_icon.png";
 import star_dull_icon from "../../Assets/star_dull_icon.png";
+import React from "react";
 import { useContext } from "react";
 import { ShopContext } from "../../Contexts/ShopContext";
 export default function ProductDisplay(props) {
