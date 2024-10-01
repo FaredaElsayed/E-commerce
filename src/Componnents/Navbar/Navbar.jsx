@@ -1,13 +1,14 @@
 import styles from "./Navbar.module.css";
 import logo from "../../Assets/logo.png";
 import cart_icon from "../../Assets/cart_icon.png";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { ShopContext } from "../../Contexts/ShopContext";
 
 export default function Navbar() {
   const location = useLocation();
   const [menu, setMenu] = useState("shop");
-
+  const { getTotalItems } = useContext(ShopContext);
   // Set the menu based on the current location
   useEffect(() => {
     if (location.pathname === "/") {
@@ -72,7 +73,7 @@ export default function Navbar() {
         <Link to="/cart">
           <img src={cart_icon} alt="nav cart" />
         </Link>
-        <div className={styles.count}>0</div>
+        <div className={styles.count}>{getTotalItems()}</div>
       </div>
     </div>
   );

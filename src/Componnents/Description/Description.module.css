@@ -1,0 +1,31 @@
+.description {
+  margin: 8em 11em;
+}
+.description .navigator {
+  display: flex;
+}
+.description .navigator .descNav,
+.description .navigator .descNavFade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  font-weight: 600;
+  width: 11em;
+  height: 6em;
+  border: 1px solid #d0d0d0;
+  cursor: pointer;
+}
+.description .navigator .descNavFade {
+  background: #fbfbfb;
+  color: #555;
+}
+
+.description .descrip {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  border: 1px solid #d0d0d0;
+  padding: 3em;
+  padding-bottom: 4em;
+}

@@ -4,6 +4,9 @@ import { ShopContext } from "../Contexts/ShopContext";
 import { useParams } from "react-router-dom";
 import ProductItem from "../Componnents/ProductItem/ProductItem";
 import ProductDisplay from "../Componnents/ProductDisplay/ProductDisplay";
+import Description from "../Componnents/Description/Description";
+import Footer from "../Componnents/Footer/Footer";
+import RelatedProducts from "../Componnents/RelatedProducts/RelatedProducts";
 
 export default function Product() {
   const { all_product } = useContext(ShopContext);
@@ -17,6 +20,9 @@ export default function Product() {
     <div className={styles.product}>
       <ProductItem product={product} />
       <ProductDisplay product={product} />
+      <Description />
+      <RelatedProducts/>
+      <Footer />
     </div>
   );
 }
