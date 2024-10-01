@@ -14,6 +14,7 @@ export default function NewCollections() {
             <Item
               src={item.image}
               description={item.name}
+              id={item.id}
               key={item.id}
               oldPrice={item.old_price}
               newPrice={item.new_price}
